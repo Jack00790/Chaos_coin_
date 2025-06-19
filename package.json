@@ -1,0 +1,17 @@
+{
+  "name": "chaos-coin",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "npx hardhat run scripts/deployFuji.ts --network fuji"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.6.0",
+    "hardhat": "^2.21.0",
+    "typescript": "^5.3.0"
+  }
+}
